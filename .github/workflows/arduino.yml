@@ -26,4 +26,4 @@ jobs:
         run: |
           arduino-cli compile \
             --fqbn esp32:esp32:esp32 \
-            .
+            esp32_uart_test
